@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  LOGIN_API:'https://rnfi.co.in/latest-backup/api/app/task/login/login',
+  LOGIN_TOKEN:'e090c25187ee2b3f9f1f8a02747356641',
+  OTP_VERIFY:'https://rnfi.co.in/latest-backup/api/app/task/login/verifyOtp',
+  OTP:'34210',
+  ADD_DATA:'https://rnfi.co.in/latest-backup/api/app/task/login/addData',
+  VALID_TOKEN:"8989898"
 };
 
 /*
